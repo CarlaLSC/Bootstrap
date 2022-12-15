@@ -69,7 +69,28 @@
       </tbody>
     </table>
   </div>   
-        
+   <form action="envio.php">
+     <div class="from-group">
+      <label for="cliente">Nome:</label>
+      <input type="text" class="from-control" id="cliente" name="cliente">
+        <div class="valid-feedback">ok</div>
+        <div class="invalid-feedback">Ops! Verifique seu nome</div>
+     </div>
+     <div class="from-group">
+      <label for="email">Telefone:</label>
+      <input type="email" class="from-control" id="email" name="email">
+      <div class="valid-feedback">Ok</div>
+      <div class="invalid-feedback">Ops! Vefifique seu e-mail</div>
+     </div>
+     <div class="from-group">
+      < textarea class="from-control" name="pedido"></textarea>
+     </div>
+     <button type="submit" class=" btn-primary">Enviar</button>
+  </form>
+  <ul class="list-group">
+    <li class="list-group-item">Prato 1</li>
+    <li class="list-group-item-action">Prato 2(escolha do dia)</li>
+    <li class="lit-group-item">Prato 3</li>     
   </div>
 
     
